@@ -1,0 +1,80 @@
+C:\AngularMaterials\SERVER\SERVER\bin\SERVER.dll.config
+C:\AngularMaterials\SERVER\SERVER\bin\SERVER.dll
+C:\AngularMaterials\SERVER\SERVER\bin\SERVER.pdb
+C:\AngularMaterials\SERVER\SERVER\bin\Antlr3.Runtime.dll
+C:\AngularMaterials\SERVER\SERVER\bin\EntityFramework.dll
+C:\AngularMaterials\SERVER\SERVER\bin\EntityFramework.SqlServer.dll
+C:\AngularMaterials\SERVER\SERVER\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\AngularMaterials\SERVER\SERVER\bin\Microsoft.Web.Infrastructure.dll
+C:\AngularMaterials\SERVER\SERVER\bin\Newtonsoft.Json.dll
+C:\AngularMaterials\SERVER\SERVER\bin\System.Net.Http.Formatting.dll
+C:\AngularMaterials\SERVER\SERVER\bin\System.Web.Helpers.dll
+C:\AngularMaterials\SERVER\SERVER\bin\System.Web.Http.dll
+C:\AngularMaterials\SERVER\SERVER\bin\System.Web.Http.WebHost.dll
+C:\AngularMaterials\SERVER\SERVER\bin\System.Web.Mvc.dll
+C:\AngularMaterials\SERVER\SERVER\bin\System.Web.Optimization.dll
+C:\AngularMaterials\SERVER\SERVER\bin\System.Web.Razor.dll
+C:\AngularMaterials\SERVER\SERVER\bin\System.Web.WebPages.Deployment.dll
+C:\AngularMaterials\SERVER\SERVER\bin\System.Web.WebPages.dll
+C:\AngularMaterials\SERVER\SERVER\bin\System.Web.WebPages.Razor.dll
+C:\AngularMaterials\SERVER\SERVER\bin\WebGrease.dll
+C:\AngularMaterials\SERVER\SERVER\bin\Antlr3.Runtime.pdb
+C:\AngularMaterials\SERVER\SERVER\bin\EntityFramework.xml
+C:\AngularMaterials\SERVER\SERVER\bin\EntityFramework.SqlServer.xml
+C:\AngularMaterials\SERVER\SERVER\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\AngularMaterials\SERVER\SERVER\bin\System.Web.Helpers.xml
+C:\AngularMaterials\SERVER\SERVER\bin\System.Web.Mvc.xml
+C:\AngularMaterials\SERVER\SERVER\bin\System.Web.Optimization.xml
+C:\AngularMaterials\SERVER\SERVER\bin\System.Web.Razor.xml
+C:\AngularMaterials\SERVER\SERVER\bin\System.Web.WebPages.xml
+C:\AngularMaterials\SERVER\SERVER\bin\System.Web.WebPages.Deployment.xml
+C:\AngularMaterials\SERVER\SERVER\bin\System.Web.WebPages.Razor.xml
+C:\AngularMaterials\SERVER\SERVER\bin\Newtonsoft.Json.xml
+C:\AngularMaterials\SERVER\SERVER\bin\System.Net.Http.Formatting.xml
+C:\AngularMaterials\SERVER\SERVER\bin\System.Web.Http.xml
+C:\AngularMaterials\SERVER\SERVER\bin\System.Web.Http.WebHost.xml
+C:\AngularMaterials\SERVER\SERVER\obj\Debug\SERVER.csprojAssemblyReference.cache
+C:\AngularMaterials\SERVER\SERVER\obj\Debug\SERVER.csproj.CoreCompileInputs.cache
+C:\AngularMaterials\SERVER\SERVER\obj\Debug\SERVER.csproj.CopyComplete
+C:\AngularMaterials\SERVER\SERVER\obj\Debug\SERVER.dll
+C:\AngularMaterials\SERVER\SERVER\obj\Debug\SERVER.pdb
+C:\Time bank Project\SERVER\SERVER\bin\SERVER.dll.config
+C:\Time bank Project\SERVER\SERVER\bin\SERVER.dll
+C:\Time bank Project\SERVER\SERVER\bin\SERVER.pdb
+C:\Time bank Project\SERVER\SERVER\bin\Antlr3.Runtime.dll
+C:\Time bank Project\SERVER\SERVER\bin\EntityFramework.dll
+C:\Time bank Project\SERVER\SERVER\bin\EntityFramework.SqlServer.dll
+C:\Time bank Project\SERVER\SERVER\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Time bank Project\SERVER\SERVER\bin\Microsoft.Web.Infrastructure.dll
+C:\Time bank Project\SERVER\SERVER\bin\Newtonsoft.Json.dll
+C:\Time bank Project\SERVER\SERVER\bin\System.Net.Http.Formatting.dll
+C:\Time bank Project\SERVER\SERVER\bin\System.Web.Helpers.dll
+C:\Time bank Project\SERVER\SERVER\bin\System.Web.Http.dll
+C:\Time bank Project\SERVER\SERVER\bin\System.Web.Http.WebHost.dll
+C:\Time bank Project\SERVER\SERVER\bin\System.Web.Mvc.dll
+C:\Time bank Project\SERVER\SERVER\bin\System.Web.Optimization.dll
+C:\Time bank Project\SERVER\SERVER\bin\System.Web.Razor.dll
+C:\Time bank Project\SERVER\SERVER\bin\System.Web.WebPages.Deployment.dll
+C:\Time bank Project\SERVER\SERVER\bin\System.Web.WebPages.dll
+C:\Time bank Project\SERVER\SERVER\bin\System.Web.WebPages.Razor.dll
+C:\Time bank Project\SERVER\SERVER\bin\WebGrease.dll
+C:\Time bank Project\SERVER\SERVER\bin\Antlr3.Runtime.pdb
+C:\Time bank Project\SERVER\SERVER\bin\EntityFramework.xml
+C:\Time bank Project\SERVER\SERVER\bin\EntityFramework.SqlServer.xml
+C:\Time bank Project\SERVER\SERVER\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Time bank Project\SERVER\SERVER\bin\System.Web.Helpers.xml
+C:\Time bank Project\SERVER\SERVER\bin\System.Web.Mvc.xml
+C:\Time bank Project\SERVER\SERVER\bin\System.Web.Optimization.xml
+C:\Time bank Project\SERVER\SERVER\bin\System.Web.Razor.xml
+C:\Time bank Project\SERVER\SERVER\bin\System.Web.WebPages.xml
+C:\Time bank Project\SERVER\SERVER\bin\System.Web.WebPages.Deployment.xml
+C:\Time bank Project\SERVER\SERVER\bin\System.Web.WebPages.Razor.xml
+C:\Time bank Project\SERVER\SERVER\bin\Newtonsoft.Json.xml
+C:\Time bank Project\SERVER\SERVER\bin\System.Net.Http.Formatting.xml
+C:\Time bank Project\SERVER\SERVER\bin\System.Web.Http.xml
+C:\Time bank Project\SERVER\SERVER\bin\System.Web.Http.WebHost.xml
+C:\Time bank Project\SERVER\SERVER\obj\Debug\SERVER.csprojAssemblyReference.cache
+C:\Time bank Project\SERVER\SERVER\obj\Debug\SERVER.csproj.CoreCompileInputs.cache
+C:\Time bank Project\SERVER\SERVER\obj\Debug\SERVER.csproj.CopyComplete
+C:\Time bank Project\SERVER\SERVER\obj\Debug\SERVER.dll
+C:\Time bank Project\SERVER\SERVER\obj\Debug\SERVER.pdb

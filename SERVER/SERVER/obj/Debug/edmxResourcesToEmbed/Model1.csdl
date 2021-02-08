@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TimeBankModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Domains">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Descreption" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Image" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="Members" Relationship="Self.FK_Members_Domains" FromRole="Domains" ToRole="Members" />
+  </EntityType>
+  <EntityType Name="FreeTime">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DayInWeek" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="StartTime" Type="Int32" Nullable="false" />
+    <Property Name="EndTime" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Members" Relationship="Self.FK_Members_FreeTime" FromRole="FreeTime" ToRole="Members" />
+  </EntityType>
+  <EntityType Name="Locations">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Area" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Members" Relationship="Self.FK_Members_Locations" FromRole="Locations" ToRole="Members" />
+  </EntityType>
+  <EntityType Name="Members">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Adress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="locationId" Type="Int32" Nullable="false" />
+    <Property Name="DomainsId" Type="Int32" Nullable="false" />
+    <Property Name="FreeTimeId" Type="Int32" Nullable="false" />
+    <Property Name="HoursDeposit" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Domains" Relationship="Self.FK_Members_Domains" FromRole="Members" ToRole="Domains" />
+    <NavigationProperty Name="FreeTime" Relationship="Self.FK_Members_FreeTime" FromRole="Members" ToRole="FreeTime" />
+    <NavigationProperty Name="Locations" Relationship="Self.FK_Members_Locations" FromRole="Members" ToRole="Locations" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Members_Domains">
+    <End Role="Domains" Type="Self.Domains" Multiplicity="1" />
+    <End Role="Members" Type="Self.Members" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Domains">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Members">
+        <PropertyRef Name="DomainsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Members_FreeTime">
+    <End Role="FreeTime" Type="Self.FreeTime" Multiplicity="1" />
+    <End Role="Members" Type="Self.Members" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FreeTime">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Members">
+        <PropertyRef Name="FreeTimeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Members_Locations">
+    <End Role="Locations" Type="Self.Locations" Multiplicity="1" />
+    <End Role="Members" Type="Self.Members" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Locations">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Members">
+        <PropertyRef Name="locationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TimeBankEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Domains" EntityType="Self.Domains" />
+    <EntitySet Name="FreeTime" EntityType="Self.FreeTime" />
+    <EntitySet Name="Locations" EntityType="Self.Locations" />
+    <EntitySet Name="Members" EntityType="Self.Members" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <AssociationSet Name="FK_Members_Domains" Association="Self.FK_Members_Domains">
+      <End Role="Domains" EntitySet="Domains" />
+      <End Role="Members" EntitySet="Members" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Members_FreeTime" Association="Self.FK_Members_FreeTime">
+      <End Role="FreeTime" EntitySet="FreeTime" />
+      <End Role="Members" EntitySet="Members" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Members_Locations" Association="Self.FK_Members_Locations">
+      <End Role="Locations" EntitySet="Locations" />
+      <End Role="Members" EntitySet="Members" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
